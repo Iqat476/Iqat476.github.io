@@ -1,0 +1,64 @@
+body {
+    z-index: -1;
+    background-image: url("images/batman.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 100%;
+}
+
+body.batsymbol {
+    z-index: -1;
+    background-image: url("images/batcity.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+a.button {
+    position: absolute;
+    box-sizing: border-box;
+    display: inline-block;
+    top: 50%;
+    right: 40%;
+    left: 40%;
+    text-align: center;
+    padding: 15px 30px;
+    background-color: white;
+    border: 4px solid black;
+    text-decoration: none;
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+a.button:hover {
+    color: white;
+    background-color: black;
+    border-color: white;
+    padding: 20px 50px; 
+}
+
+.content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgba(22, 22, 22, 0.76);
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.selection {
+    border: 0px solid white;
+    margin: 15px;
+    width: 13vw;
+    float: left;
+    transition: 0.6s;
+    overflow: auto;
+}
+
+img.selection:hover {
+    width: 16vw;
+    z-index: 2;
+    border: 6px solid white;
+}

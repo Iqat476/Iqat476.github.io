@@ -1,0 +1,120 @@
+body.batman {
+    z-index: -1;
+    background-image: url("images/batmansitting.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+body.joker {
+    z-index: -1;
+    background-image: url("images/jokerbackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+body.robin {
+    z-index: -1;
+    background-image: url("images/robinbackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+div.content {
+    padding-left: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: left;
+    background-color: rgba(17, 17, 17, 0.829);
+    position: absolute;
+    width: 50%;
+    margin: 0px 25%;
+}
+
+.nav {
+    box-sizing: border-box;
+    z-index: 2;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    right: 20px;
+}
+
+.nav a {
+    width: 25%;
+    box-sizing: border-box;
+    float: left;
+    padding: 20px 40px;
+    background-color: black;
+    border: 3px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: 0.4s;
+    
+}
+
+.nav a:hover {
+    background-color: darkgray;
+    border-color: rgb(77, 77, 77);
+    color: white;
+}
+
+a.selected {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+a.selected:hover {
+    background-color: darkgray;
+    border-color: rgb(77, 77, 77);
+    color: white;
+}
+
+.text {
+    font-family:Candara, Helvetica, sans-serif;
+    padding-right: 15px;
+}
+
+.smallpic {
+    width: 167px;
+    height: 99px;
+    float: right;
+    margin-right: 8px;
+    border: 3px solid white;
+    transition: 0.4s;
+}
+
+.smallpic:hover {
+    border-color: black;
+}
+
+.sidebar {
+    margin-top: 180px;
+    float: left;
+    position: fixed;
+    background-color: rgba(17, 17, 17, 0.829);
+    list-style-type: none;
+    border: 2px solid white;
+    padding: 10px;
+    padding-left: 5px;
+    margin-left: 1%;
+}
+
+.sidebar a {
+    display: block;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color:rgb(77, 77, 77);
+}
