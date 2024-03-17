@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio for Muhammad Taqi">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio">
+    <meta name="author" content="Muhammad Taqi, iqat476@gmail.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Home</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Import Proza Libre Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Proza+Libre&display=swap" rel="stylesheet">
+
+    <!-- Import Roboto Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;1,100&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .roboto {
+            font-family: "Roboto Condensed", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        .contact {
+            font-size: calc(5rem + 3vw);
+        }
+    </style>
+
+</head>
+
+<body id="home" class="bg-dark">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top m-0 bg-hide" id="navigationBar">
+        <div class="container-fluid">
+            <a href="contact.HTML" class="navbar-brand p-0 m-1"><img src="images/profile.png"
+                    style="width: 40px;"></img></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar"
+                onclick="fixContact('contactLink')">
+                <span class="navbar-toggler-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50">
+                        <path
+                            d="M 5 9 L 5 11 L 45 11 L 45 9 L 5 9 z M 5 24 L 5 26 L 45 26 L 45 24 L 5 24 z M 5 39 L 5 41 L 45 41 L 45 39 L 5 39 z">
+                        </path>
+                    </svg>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navBar">
+                <ul class="navbar-nav container-fluid d-flex">
+                    <li class="nav-item ms-1">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item ms-auto" id="contactLink">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="header" class="container-fluid bg-dark">
+
+        <div class="row mx-auto" style="background-color: rgb(216, 216, 216);width: 90vw; min-height: 50vh;">
+            <div class="container m-3 col-xl-5 my-auto" style="z-index: 5;">
+                <h2 class="display-2 roboto mt-3 hidden"
+                    style="font-size: 3vw; text-shadow: 0px 0px 3px rgb(204, 204, 204); color: rgb(145, 145, 145);">
+                    FRONT END DEVELOPER</h2>
+                <h1 class="text-dark hidden fast"
+                    style="font-size: calc(5vw + 30px); text-shadow: 0px 0px 3px rgb(104, 104, 104)">Muhammad Taqi</h1>
+                <footer class="hidden">
+                    <p class="text-dark border-start border-dark p-2 mx-4" style="text-align: left;">I'm a Front-End Web
+                        Developer in training.</p>
+                </footer>
+            </div>
+            <div class="container mb-0 col-xl-5 d-inline me-auto my-auto">
+                <img alt="picture" src="images/man.png" style="width: 100%;" class="hidden fast">
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div id="section1" class="container-fluid bg-dark" style="z-index: 20; min-height: 50vh; position: relative;">
+        <div class="row bg-warning">
+            <div class="container col-xl-6 hidden fast">
+                <img alt="man" src="images/man2.png" class="p-3 m-auto" width="80%">
+            </div>
+            <div class="container col-xl-5 hidden fast">
+                <h1 class="display-1 heading-left hidden fast"
+                    style="font-size: 10rem; text-shadow: 1px 1px 3px black;">About Me:</h1>
+                <p class="p-left px-4 hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Elit ut aliquam purus sit. Viverra orci sagittis
+                    eu volutpat odio facilisis. Ut faucibus pulvinar elementum integer enim. Etiam dignissim diam quis
+                    enim lobortis scelerisque fermentum. Nisl tincidunt eget nullam non. Et odio pellentesque diam
+                    volutpat commodo sed egestas. Sapien nec sagittis aliquam malesuada bibendum. Morbi tempus iaculis
+                    urna id volutpat lacus laoreet. In massa tempor nec feugiat nisl pretium fusce id.</p>
+                <p class="p-left px-4 hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Turpis massa sed elementum tempus egestas sed
+                    sed risus pretium. Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Orci porta
+                    non pulvinar neque laoreet. Elit scelerisque mauris pellentesque pulvinar pellentesque. Dolor sit
+                    amet consectetur adipiscing elit pellentesque habitant morbi. Ut placerat orci nulla pellentesque
+                    dignissim enim sit. Ornare arcu dui vivamus arcu felis bibendum. Proin fermentum leo vel orci porta.
+                    Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id.</p>
+                <a href="about.html" class="btn btn-danger btn-lg btn-left px-5 mb-4 hidden fast rounded-5">Details
+                    »</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="section2" class="container-fluid bg-success" style="z-index: 20;">
+        <div class="row bg-success">
+            <div id="header-down" class="container col-xl-5 shift-down">
+                <h1 class="display-1 heading-right hidden fast"
+                    style="z-index: 23; position: relative; font-size: 10rem;">Projects</h1>
+                <p class="p-right hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut pharetra sit amet aliquam id diam. Netus et
+                    malesuada fames ac turpis egestas. Felis eget velit aliquet sagittis id consectetur. Cursus euismod
+                    quis viverra nibh. Eu nisl nunc mi ipsum faucibus vitae aliquet. Viverra mauris in aliquam sem
+                    fringilla. Id interdum velit laoreet id donec ultrices tincidunt arcu. Neque sodales ut etiam sit
+                    amet nisl purus. Neque viverra justo nec ultrices dui sapien.</p>
+                <a href="projects.html" class="btn btn-light btn-lg btn-right mb-4 hidden fast px-5 rounded-5">Details
+                    »</a>
+            </div>
+            <div id="man-image" class="container col-xl-6 hidden fast shift-up" style="z-index: 0;">
+                <img alt="man" src="images/man3.png" class="p-3 m-auto" width="80%">
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: #042A2B; min-height: 15vh;">
+        <div class="container p-2">
+            <a href="contact.html" class="text-white display-2 d-flex justify-content-center contact"
+                style="font-family: 'Bebas Neue', sans-serif; transition: 0.3s;">CONTACT
+                ME</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

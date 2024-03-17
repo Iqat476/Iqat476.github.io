@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio for Muhammad Taqi">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio">
+    <meta name="author" content="Muhammad Taqi, iqat476@gmail.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Projects</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Import Proza Libre Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Proza+Libre&display=swap" rel="stylesheet">
+
+    <style>
+        p {
+            font-size: calc(1rem + 0.2vw);
+            padding-left: 3.5rem;
+        }
+
+        .display-2 {
+            font-size: calc(5rem + 3vw);
+        }
+
+        header.unhidden {
+            transition: 0.8s;
+        }
+
+        a {
+            color: white;
+        }
+    </style>
+
+
+</head>
+
+<body id="projects" style="background-color: #9C3848; color: white;">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top m-0 bg-hide" id="navigationBar">
+        <div class="container-fluid">
+            <a href="contact.HTML" class="navbar-brand p-0 m-1"><img src="images/profile.png"
+                    style="width: 40px;"></img></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar">
+                <span class="navbar-toggler-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50">
+                        <path
+                            d="M 5 9 L 5 11 L 45 11 L 45 9 L 5 9 z M 5 24 L 5 26 L 45 26 L 45 24 L 5 24 z M 5 39 L 5 41 L 45 41 L 45 39 L 5 39 z">
+                        </path>
+                    </svg>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navBar">
+                <ul class="navbar-nav container-fluid d-flex">
+                    <li class="nav-item ms-1">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item ms-auto" id="contactLink">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div id="heading">
+
+        <header class="hidden">
+            <h1 class="display-1" style="text-align: center; text-wrap: balance; font-size: calc(4rem + 10vw)">
+                PROJECTS</h1>
+        </header>
+
+
+
+        <hr class="horizontal-divider" style="color: rgba(253, 173, 173, 0.658); opacity: 1;">
+
+    </div>
+
+    <div id="section1" class="container mx-auto pb-5" style="width: 80%;">
+        <header class="hidden">
+            <h2 class="display-2">Overview</h2>
+        </header>
+        <div id="batman"
+            style="background-color: #FFAD69; border: 5px solid white; border-radius: 30px; margin-bottom: 50px;">
+            <header class="hidden">
+                <a href="batman/intro.htm">
+                    <h3 class="display-3 ps-5 mt-4">Batman website</h3>
+                </a>
+            </header>
+
+            <div>
+                <p class="pe-5 hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                    et
+                    dolore magna aliqua. Nulla facilisi cras fermentum odio eu feugiat. Vulputate dignissim suspendisse
+                    in
+                    est ante in nibh
+                    mauris. Elementum eu facilisis sed odio morbi quis commodo odio aenean. Sed viverra tellus in hac
+                    habitasse platea. Amet volutpat consequat mauris nunc congue nisi. Rhoncus est pellentesque elit
+                    ullamcorper dignissim cras tincidunt lobortis. Ac placerat vestibulum lectus mauris. Donec ultrices
+                    tincidunt arcu non sodales neque sodales. Sit amet mattis vulputate enim nulla. Lacus viverra vitae
+                    congue eu. Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Turpis massa tincidunt
+                    dui ut
+                    ornare lectus sit amet. Morbi tincidunt augue interdum velit euismod in pellentesque massa.
+                </p>
+            </div>
+
+            <hr class="dotted-hr">
+
+            <div class="row mx-3">
+                <div class="col-lg-4 d-flex justify-content-center hidden fast" style>
+                    <a target="_blank" href="batman/intro.htm" class="d-flex justify-content-center"
+                        style="width: 64vw; overflow: hidden;">
+                        <img class="thumbnail-image" src="images/batman-images/intro.png">
+                        <h3 class="display-3" style="position: absolute; align-self: center;">main</h3>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 d-flex justify-content-center hidden fast" style>
+                    <a target="_blank" href="batman/main.htm" class="d-flex justify-content-center"
+                        style="width: 64vw; overflow: hidden;">
+                        <img class="thumbnail-image" src="images/batman-images/main.png">
+                        <h3 class="display-3" style="position: absolute; align-self: center;">homepage</h3>
+                    </a>
+                </div>
+
+                <div target="_blank" class="col-lg-4 d-flex justify-content-center hidden fast" style>
+                    <a target="_blank" href="batman/batman.htm" class="d-flex justify-content-center"
+                        style="width: 64vw; overflow: hidden;">
+                        <img class="thumbnail-image" src="images/batman-images/batman.png">
+                        <h3 class="display-3" style="position: absolute; align-self: center;">batman</h3>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="ninja-frog" style="background-color: #FFAD69; border: 5px solid white; border-radius: 30px;">
+            <header class="hidden">
+                <a href="NinjaFrog.zip" download="Ninja Frog">
+                    <h3 class="display-3 ps-5 mt-4">Ninja Frog</h3>
+                </a>
+            </header>
+
+            <div>
+                <p class="pe-5 hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                    et
+                    dolore magna aliqua. Nulla facilisi cras fermentum odio eu feugiat. Vulputate dignissim suspendisse
+                    in
+                    est ante in nibh
+                    mauris. Elementum eu facilisis sed odio morbi quis commodo odio aenean. Sed viverra tellus in hac
+                    habitasse platea. Amet volutpat consequat mauris nunc congue nisi. Rhoncus est pellentesque elit
+                    ullamcorper dignissim cras tincidunt lobortis. Ac placerat vestibulum lectus mauris. Donec ultrices
+                    tincidunt arcu non sodales neque sodales. Sit amet mattis vulputate enim nulla. Lacus viverra vitae
+                    congue eu. Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Turpis massa tincidunt
+                    dui ut
+                    ornare lectus sit amet. Morbi tincidunt augue interdum velit euismod in pellentesque massa.
+                </p>
+            </div>
+
+            <hr class="dotted-hr">
+
+            <div class="d-flex justify-content-center">
+                <a href="NinjaFrog.zip" class="d-flex justify-content-center hidden" style="width: 80%;" download>
+                    <img class="thumbnail-image" src="images/ninja-frog.gif">
+                    <h3 class="display-3" style="position: absolute; align-self: center;">DOWNLOAD</h3>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div style="background-color: #042A2B; min-height: 15vh;">
+        <div class="container p-2">
+            <a href="contact.html" class="text-white display-2 d-flex justify-content-center contact"
+                style="font-family: 'Bebas Neue', sans-serif; transition: 0.3s;">CONTACT
+                ME</a>
+        </div>
+    </div>
+
+    </div>
