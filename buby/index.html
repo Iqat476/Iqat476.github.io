@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="For my wifey - buby <3">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio, Love, Buby">
+    <meta name="author" content="Muhammad Taqi, iqat476@gmail.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <!-- <link rel="icon" type="image/x-icon" href="images/favicon.ico"> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+    <script defer src="app.js"></script>
+</head>
+
+<body style="display: flex; justify-content: center;">
+    <div id="first-div" style="position: absolute;">
+        <h1 id="header">HIIIIII</h1>
+    </div>
+    <div id="flower-container" style="width: 80vw; display: flex; justify-content: space-between; position: absolute;">
+        <svg class="invisible" id="flower1" fill="#E6E6FA" width="20vw" version="1.1" id="Capa_1"
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+            <g>
+                <path d="M443.3,194.9c-13.5,17.3-22.8,39.1-29.1,60.9c-0.2-22.7-3.1-46.2-11.4-66.7c-27.1-67.1-67.5-88.9-101.1-75.3
+			c-33.5,13.5-47.7,57.2-20.5,124.4c8.3,20.4,22.5,39.3,38.2,55.8c-19.7-11.1-41.6-20.5-63.4-23.5c-71.6-10.1-110.7,14.1-115.8,49.9
+			c-4.9,35.9,25.9,69.8,97.6,79.8c21.7,3.1,45.3,0.3,67.4-5.1c-19.7,11.4-38.6,25.8-52.1,43c-44.6,57.1-43.1,103-14.7,125.2
+			c28.6,22.3,73.5,12.6,118-44.5c13.5-17.3,22.8-39,29.3-60.9c0.1,22.8,3.1,46.2,11.2,66.8c27.1,67.1,67.7,88.7,101.1,75.2
+			c33.6-13.4,47.7-57.2,20.4-124.4c-8.3-20.3-22.4-39.3-38.1-55.8c19.8,11.2,41.6,20.5,63.4,23.6c71.6,10.1,110.8-14.1,115.9-49.9
+			c4.9-35.9-25.9-69.9-97.7-80c-21.7-3.1-45.2-0.1-67.3,5.2c19.6-11.5,38.5-25.7,52-43.1c44.7-57,43.3-103,14.7-125.3
+			C532.8,128,487.9,137.7,443.3,194.9z M451.8,364.2c-4,28.7-30.6,48.6-59.1,44.6c-28.8-4-48.8-30.5-44.7-59.2
+			c4-28.7,30.5-48.6,59.2-44.6C435.8,309,455.9,335.5,451.8,364.2z" />
+            </g>
+        </svg>
+        <svg class="invisible" id="flower2" fill="#E6E6FA" width="20vw" version="1.1" id="Capa_1"
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+            <g>
+                <path d="M443.3,194.9c-13.5,17.3-22.8,39.1-29.1,60.9c-0.2-22.7-3.1-46.2-11.4-66.7c-27.1-67.1-67.5-88.9-101.1-75.3
+			c-33.5,13.5-47.7,57.2-20.5,124.4c8.3,20.4,22.5,39.3,38.2,55.8c-19.7-11.1-41.6-20.5-63.4-23.5c-71.6-10.1-110.7,14.1-115.8,49.9
+			c-4.9,35.9,25.9,69.8,97.6,79.8c21.7,3.1,45.3,0.3,67.4-5.1c-19.7,11.4-38.6,25.8-52.1,43c-44.6,57.1-43.1,103-14.7,125.2
+			c28.6,22.3,73.5,12.6,118-44.5c13.5-17.3,22.8-39,29.3-60.9c0.1,22.8,3.1,46.2,11.2,66.8c27.1,67.1,67.7,88.7,101.1,75.2
+			c33.6-13.4,47.7-57.2,20.4-124.4c-8.3-20.3-22.4-39.3-38.1-55.8c19.8,11.2,41.6,20.5,63.4,23.6c71.6,10.1,110.8-14.1,115.9-49.9
+			c4.9-35.9-25.9-69.9-97.7-80c-21.7-3.1-45.2-0.1-67.3,5.2c19.6-11.5,38.5-25.7,52-43.1c44.7-57,43.3-103,14.7-125.3
+			C532.8,128,487.9,137.7,443.3,194.9z M451.8,364.2c-4,28.7-30.6,48.6-59.1,44.6c-28.8-4-48.8-30.5-44.7-59.2
+			c4-28.7,30.5-48.6,59.2-44.6C435.8,309,455.9,335.5,451.8,364.2z" />
+            </g>
+        </svg>
+    </div>
+    <div style="display: flex; position: absolute; justify-content: center; align-items: center; height: 100vh">
+        <div id="thankDiv">
+            <h1 id="thank" style="font-size: 0vh;">Thank you</h1>
+            <h2 id="for" style="text-align: center; opacity: 0;">for being my</h2>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; background-color: rgb(24, 24, 24);
+         width: 100vw; height: 100vh; margin: -8px; position: fixed; overflow: hidden;">
+        <svg id="heart" width="25vw" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji"
+            preserveAspectRatio="xMidYMid meet">
+            <path fill="#AA8ED6"
+                d="M35.885 11.833c0-5.45-4.418-9.868-9.867-9.868c-3.308 0-6.227 1.633-8.018 4.129c-1.791-2.496-4.71-4.129-8.017-4.129c-5.45 0-9.868 4.417-9.868 9.868c0 .772.098 1.52.266 2.241C1.751 22.587 11.216 31.568 18 34.034c6.783-2.466 16.249-11.447 17.617-19.959c.17-.721.268-1.469.268-2.242z">
+            </path>
+        </svg>
+    </div>
+</body>
+
+</html>
